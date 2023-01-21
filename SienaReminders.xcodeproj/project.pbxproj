@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540623F5297B69C900FB8362 /* SienaRemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540623F4297B69C900FB8362 /* SienaRemindersApp.swift */; };
+		540623F7297B69C900FB8362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540623F6297B69C900FB8362 /* ContentView.swift */; };
+		540623F9297B69CB00FB8362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540623F8297B69CB00FB8362 /* Assets.xcassets */; };
+		540623FC297B69CB00FB8362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540623FB297B69CB00FB8362 /* Preview Assets.xcassets */; };
+		54062407297B69CC00FB8362 /* SienaRemindersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54062406297B69CC00FB8362 /* SienaRemindersTests.swift */; };
+		54062411297B69CC00FB8362 /* SienaRemindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54062410297B69CC00FB8362 /* SienaRemindersUITests.swift */; };
+		54062413297B69CC00FB8362 /* SienaRemindersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54062412297B69CC00FB8362 /* SienaRemindersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54062403297B69CC00FB8362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540623E9297B69C900FB8362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540623F0297B69C900FB8362;
+			remoteInfo = SienaReminders;
+		};
+		5406240D297B69CC00FB8362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540623E9297B69C900FB8362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540623F0297B69C900FB8362;
+			remoteInfo = SienaReminders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540623F1297B69C900FB8362 /* SienaReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SienaReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540623F4297B69C900FB8362 /* SienaRemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SienaRemindersApp.swift; sourceTree = "<group>"; };
+		540623F6297B69C900FB8362 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		540623F8297B69CB00FB8362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540623FB297B69CB00FB8362 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		540623FD297B69CB00FB8362 /* SienaReminders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SienaReminders.entitlements; sourceTree = "<group>"; };
+		54062402297B69CC00FB8362 /* SienaRemindersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SienaRemindersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54062406297B69CC00FB8362 /* SienaRemindersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SienaRemindersTests.swift; sourceTree = "<group>"; };
+		5406240C297B69CC00FB8362 /* SienaRemindersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SienaRemindersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54062410297B69CC00FB8362 /* SienaRemindersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SienaRemindersUITests.swift; sourceTree = "<group>"; };
+		54062412297B69CC00FB8362 /* SienaRemindersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SienaRemindersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540623EE297B69C900FB8362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540623FF297B69CC00FB8362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54062409297B69CC00FB8362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540623E8297B69C900FB8362 = {
+			isa = PBXGroup;
+			children = (
+				540623F3297B69C900FB8362 /* SienaReminders */,
+				54062405297B69CC00FB8362 /* SienaRemindersTests */,
+				5406240F297B69CC00FB8362 /* SienaRemindersUITests */,
+				540623F2297B69C900FB8362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540623F2297B69C900FB8362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540623F1297B69C900FB8362 /* SienaReminders.app */,
+				54062402297B69CC00FB8362 /* SienaRemindersTests.xctest */,
+				5406240C297B69CC00FB8362 /* SienaRemindersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540623F3297B69C900FB8362 /* SienaReminders */ = {
+			isa = PBXGroup;
+			children = (
+				540623F4297B69C900FB8362 /* SienaRemindersApp.swift */,
+				540623F6297B69C900FB8362 /* ContentView.swift */,
+				540623F8297B69CB00FB8362 /* Assets.xcassets */,
+				540623FD297B69CB00FB8362 /* SienaReminders.entitlements */,
+				540623FA297B69CB00FB8362 /* Preview Content */,
+			);
+			path = SienaReminders;
+			sourceTree = "<group>";
+		};
+		540623FA297B69CB00FB8362 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				540623FB297B69CB00FB8362 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54062405297B69CC00FB8362 /* SienaRemindersTests */ = {
+			isa = PBXGroup;
+			children = (
+				54062406297B69CC00FB8362 /* SienaRemindersTests.swift */,
+			);
+			path = SienaRemindersTests;
+			sourceTree = "<group>";
+		};
+		5406240F297B69CC00FB8362 /* SienaRemindersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54062410297B69CC00FB8362 /* SienaRemindersUITests.swift */,
+				54062412297B69CC00FB8362 /* SienaRemindersUITestsLaunchTests.swift */,
+			);
+			path = SienaRemindersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540623F0297B69C900FB8362 /* SienaReminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54062416297B69CC00FB8362 /* Build configuration list for PBXNativeTarget "SienaReminders" */;
+			buildPhases = (
+				540623ED297B69C900FB8362 /* Sources */,
+				540623EE297B69C900FB8362 /* Frameworks */,
+				540623EF297B69C900FB8362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SienaReminders;
+			productName = SienaReminders;
+			productReference = 540623F1297B69C900FB8362 /* SienaReminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54062401297B69CC00FB8362 /* SienaRemindersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54062419297B69CC00FB8362 /* Build configuration list for PBXNativeTarget "SienaRemindersTests" */;
+			buildPhases = (
+				540623FE297B69CC00FB8362 /* Sources */,
+				540623FF297B69CC00FB8362 /* Frameworks */,
+				54062400297B69CC00FB8362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54062404297B69CC00FB8362 /* PBXTargetDependency */,
+			);
+			name = SienaRemindersTests;
+			productName = SienaRemindersTests;
+			productReference = 54062402297B69CC00FB8362 /* SienaRemindersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5406240B297B69CC00FB8362 /* SienaRemindersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5406241C297B69CC00FB8362 /* Build configuration list for PBXNativeTarget "SienaRemindersUITests" */;
+			buildPhases = (
+				54062408297B69CC00FB8362 /* Sources */,
+				54062409297B69CC00FB8362 /* Frameworks */,
+				5406240A297B69CC00FB8362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5406240E297B69CC00FB8362 /* PBXTargetDependency */,
+			);
+			name = SienaRemindersUITests;
+			productName = SienaRemindersUITests;
+			productReference = 5406240C297B69CC00FB8362 /* SienaRemindersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540623E9297B69C900FB8362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					540623F0297B69C900FB8362 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					54062401297B69CC00FB8362 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 540623F0297B69C900FB8362;
+					};
+					5406240B297B69CC00FB8362 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 540623F0297B69C900FB8362;
+					};
+				};
+			};
+			buildConfigurationList = 540623EC297B69C900FB8362 /* Build configuration list for PBXProject "SienaReminders" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540623E8297B69C900FB8362;
+			productRefGroup = 540623F2297B69C900FB8362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540623F0297B69C900FB8362 /* SienaReminders */,
+				54062401297B69CC00FB8362 /* SienaRemindersTests */,
+				5406240B297B69CC00FB8362 /* SienaRemindersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540623EF297B69C900FB8362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540623FC297B69CB00FB8362 /* Preview Assets.xcassets in Resources */,
+				540623F9297B69CB00FB8362 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54062400297B69CC00FB8362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5406240A297B69CC00FB8362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540623ED297B69C900FB8362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540623F7297B69C900FB8362 /* ContentView.swift in Sources */,
+				540623F5297B69C900FB8362 /* SienaRemindersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540623FE297B69CC00FB8362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54062407297B69CC00FB8362 /* SienaRemindersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54062408297B69CC00FB8362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54062411297B69CC00FB8362 /* SienaRemindersUITests.swift in Sources */,
+				54062413297B69CC00FB8362 /* SienaRemindersUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54062404297B69CC00FB8362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540623F0297B69C900FB8362 /* SienaReminders */;
+			targetProxy = 54062403297B69CC00FB8362 /* PBXContainerItemProxy */;
+		};
+		5406240E297B69CC00FB8362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540623F0297B69C900FB8362 /* SienaReminders */;
+			targetProxy = 5406240D297B69CC00FB8362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54062414297B69CC00FB8362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54062415297B69CC00FB8362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		54062417297B69CC00FB8362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SienaReminders/SienaReminders.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SienaReminders/Preview Content\"";
+				DEVELOPMENT_TEAM = K4B7NWV7YJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicpompilio.SienaReminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		54062418297B69CC00FB8362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SienaReminders/SienaReminders.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SienaReminders/Preview Content\"";
+				DEVELOPMENT_TEAM = K4B7NWV7YJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicpompilio.SienaReminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5406241A297B69CC00FB8362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4B7NWV7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicpompilio.SienaRemindersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SienaReminders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SienaReminders";
+			};
+			name = Debug;
+		};
+		5406241B297B69CC00FB8362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4B7NWV7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicpompilio.SienaRemindersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SienaReminders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SienaReminders";
+			};
+			name = Release;
+		};
+		5406241D297B69CC00FB8362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4B7NWV7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicpompilio.SienaRemindersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SienaReminders;
+			};
+			name = Debug;
+		};
+		5406241E297B69CC00FB8362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4B7NWV7YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicpompilio.SienaRemindersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SienaReminders;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540623EC297B69C900FB8362 /* Build configuration list for PBXProject "SienaReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54062414297B69CC00FB8362 /* Debug */,
+				54062415297B69CC00FB8362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54062416297B69CC00FB8362 /* Build configuration list for PBXNativeTarget "SienaReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54062417297B69CC00FB8362 /* Debug */,
+				54062418297B69CC00FB8362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54062419297B69CC00FB8362 /* Build configuration list for PBXNativeTarget "SienaRemindersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406241A297B69CC00FB8362 /* Debug */,
+				5406241B297B69CC00FB8362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5406241C297B69CC00FB8362 /* Build configuration list for PBXNativeTarget "SienaRemindersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406241D297B69CC00FB8362 /* Debug */,
+				5406241E297B69CC00FB8362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540623E9297B69C900FB8362 /* Project object */;
+}
